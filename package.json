@@ -1,6 +1,6 @@
 {
   "name": "@kiwikilian/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "My unified ESLint config.",
   "author": {
     "name": "Kilian Finger",
@@ -24,6 +24,7 @@
     "profile"
   ],
   "scripts": {
+    "semantic-release": "semantic-release",
     "format": "prettier --write ."
   },
   "prettier": "@kiwikilian/prettier-config",
@@ -49,8 +50,11 @@
   },
   "devDependencies": {
     "@kiwikilian/prettier-config": "1.0.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "eslint": "^8.26.0",
     "prettier": "2.7.1",
+    "semantic-release": "^19.0.5",
     "typescript": "^4.8.4"
   }
 }
