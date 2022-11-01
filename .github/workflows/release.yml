@@ -8,7 +8,6 @@ on:
 jobs:
   release:
     name: Release
-    needs: setup
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
