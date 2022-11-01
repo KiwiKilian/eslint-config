@@ -1,6 +1,6 @@
 {
   "name": "@kiwikilian/eslint-config",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "My unified ESLint config.",
   "author": {
     "name": "Kilian Finger",
