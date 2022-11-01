@@ -2,12 +2,12 @@
 
 My unified ESLint config.
 
-## Getting started in 3 steps
+## Getting started in 3 Steps
 
 Applying the ruleset to a project is quick and easy. Install the package, then create an `.eslintrc.js` file
 and select an appropriate project profile.
 
-### 1. Install the package
+### 1. Install the Package
 
 ```sh
 npm install --save-dev eslint
@@ -15,7 +15,7 @@ npm install --save-dev typescript # Only for TypeScript profiles/projects
 npm install --save-dev @kiwikilian/eslint-config
 ```
 
-### 2. Choose one profile
+### 2. Choose one Profile
 
 The ruleset currently supports three different "profile" strings, which select lint rules applicable for
 your project:
