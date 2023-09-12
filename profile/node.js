@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['plugin:node/recommended', 'airbnb-base', 'prettier'],
+  extends: ['plugin:n/recommended', 'airbnb-base', 'prettier'],
 
   root: true,
 
